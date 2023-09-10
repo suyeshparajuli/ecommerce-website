@@ -1,0 +1,66 @@
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Cart Item Details */
+  .cart-item p {
+    margin: 5px 0;
+  }
+  
+  /* Cart Item Image (using 'images' class) */
+  .images {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Empty Cart Message */
+  .empty-cart-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  /* "Go to Cart" Link (using 'go-to-cart-link' class) */
+  .go-to-cart-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .go-to-cart-link:hover {
+    background-color: #0056b3;
+  }
+  
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .lists {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Adjust as needed for your layout */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
